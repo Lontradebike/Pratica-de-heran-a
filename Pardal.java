@@ -29,7 +29,7 @@ public class Pardal extends Ave implements AnimalDomestico, AnimalDaFazenda {
 	@Override
 	public void voar() {
 		// TODO Auto-generated method stub
-		System.out.println("O"+nome+"esta voando");
+		System.out.println("O "+nome+" esta voando");
 	}
 
 	@Override

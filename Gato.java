@@ -13,10 +13,8 @@ public class Gato extends Mamifero implements AnimalDomestico {
 	}
 
 
-	@Override
-	public void fazerSons() {
-		System.out.println("Meow");
-	}
+	
+	
 
 	@Override
 	public void levarPassear() {
@@ -39,6 +37,12 @@ public class Gato extends Mamifero implements AnimalDomestico {
 	@Override
 	public void obterInfo() {
 		System.out.println("Nome:"+nome+"\nRaça:"+raça);
+		
+	}
+
+	@Override
+	public void fazerSons() {
+		System.out.println("meow");
 		
 	}
 

@@ -39,7 +39,8 @@ public class Main {
     	System.out.println("Falar com "+cachorro.nome+"\n brincar"+"\n tosar"+"\npassear"+"\nobter informações");
     	sela=var.nextLine();
     	switch(sela) {
-    	case "Falar":
+    	case "falar":
+    		
     		cachorro.fazerSons();
     		break;
     	
@@ -58,10 +59,10 @@ public class Main {
     	break;
     	}
  	   
- 	 
+ 	 break;
  	    
     
- 	   break;
+ 	   
  	   
     case "gato":
     	String cat=null;
@@ -70,7 +71,7 @@ public class Main {
     	System.out.println("Falar com "+gato.nome+"\nbrincar"+"\ntosar"+"\nobter informações");
     	sela=war.nextLine();
     	switch(sela) {
-    	case "Falar":
+    	case "falar":
     		gato.fazerSons();
     		break;
     	
@@ -88,6 +89,7 @@ public class Main {
     	gato.obterInfo();
     	break;
     	}
+    	break;
     case "vaca":
     	String vac=null;
     	System.out.println("o que deseja fazer?\n");
@@ -95,7 +97,7 @@ public class Main {
     	System.out.println("Falar com "+vaca.nome+ "\nalimentar" +"\ntosar" +"\npastar");
     	sela=bor.nextLine();
     	switch(sela) {
-    	case "Falar":
+    	case "falar":
     		vaca.fazerSons();
     		break;
     	
@@ -111,14 +113,15 @@ public class Main {
     	break;
     
     	}
+    	break;
     case "pardal":
     	String pat=null;
     	System.out.println("o que deseja fazer?\n");
     	Scanner par = new Scanner(System.in);
-    	System.out.println("Falar com "+pardal.nome+"\nbrincar"+"\nobter informações"+"deixar voar");
+    	System.out.println("Falar com "+pardal.nome+"\nbrincar"+"\nobter informações"+"\ndeixar voar");
     	sela=par.nextLine();
     	switch(sela) {
-    	case "Falar":
+    	case "falar":
     		pardal.fazerSons();
     		break;
     	
